@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.931,
+  "precision_macro": 0.9397,
+  "recall_macro": 0.931,
+  "f1_macro": 0.9329,
+  "train_size": 2772,
+  "val_size": 594,
+  "test_size": 594,
+  "num_classes": 18,
+  "epochs_trained": 10
+}

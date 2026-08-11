@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: fintracker-bot
+  # По умолчанию используется PostgreSQL (как в теме ВКР).
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fintracker
+    username: fintracker
+    password: fintracker
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+
+bot:
+  username: ${BOT_USERNAME:your_bot_username}
+  token: ${BOT_TOKEN:PUT_YOUR_TOKEN_HERE}
+  ml-service-url: ${ML_SERVICE_URL:http://localhost:8000}
+
+server:
+  port: 8080
+
+logging:
+  level:
+    ru.muiv.fintracker: INFO

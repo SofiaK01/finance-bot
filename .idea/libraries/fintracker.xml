@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fintracker">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fintracker.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

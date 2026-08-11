@@ -1,0 +1,16 @@
+# Поднимает PostgreSQL для бота одной командой:  docker compose up -d
+services:
+  postgres:
+    image: postgres:16
+    container_name: fintracker-postgres
+    environment:
+      POSTGRES_DB: fintracker
+      POSTGRES_USER: fintracker
+      POSTGRES_PASSWORD: fintracker
+    ports:
+      - "5432:5432"
+    volumes:
+      - fintracker_pgdata:/var/lib/postgresql/data
+
+volumes:
+  fintracker_pgdata:
