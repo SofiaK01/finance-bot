@@ -14,3 +14,7 @@ spring:
     console:
       enabled: true
       path: /h2-console
+bot:
+  username: kelepfinbot
+  token: 8923464553:AAEBqDQxd-ZJ-LxnEQZzFJphKFYmwv2fqPs
+  ml-service-url: http://localhost:8000
