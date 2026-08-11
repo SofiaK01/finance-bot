@@ -1,3 +1,9 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+venv/
+ml-service/venv/
+.idea/
+target/
+*.keras
+application-h2.yml
